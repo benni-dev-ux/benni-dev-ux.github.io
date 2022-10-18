@@ -2,7 +2,7 @@
     --dark-bg: #050505;
     --light-bg: #ffffff;
     --light-bg-gray: #f8f8f8;
-    --accent: #FFCC00;
+    --accent: #228daa;
     --dark-font: #050505;
     --dark-font-gray: #2F4F4F;
     --light-font: #ffffff;
@@ -71,6 +71,7 @@ a:hover {
     margin: auto;
     padding-left: 5%;
     padding-right: 5%;
+    flex-direction: column;
 }
 
 .section-title {
@@ -154,7 +155,6 @@ p {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 50px;
 }
 
 #sec1,
@@ -169,19 +169,26 @@ p {
     background-color: var(--light-bg-gray);
 }
 
+.carousel_container {
+    width: 80%;
+    max-width: 55vh;
+    margin: auto;
+}
+
 @media (max-width: 65em) {
     .paragraph-text,
     .section-text {
         margin: auto;
-        font-size: 75%;
+        font-size: 80%;
     }
     .section-title,
     .paragraph-title {
-        font-size: 110%;
+        font-size: 120%;
     }
     .paragraph-sub-title {
         font-size: 100%;
     }
+    /*
     #sec1,
     #sec2,
     #sec3,
@@ -192,10 +199,7 @@ p {
         flex-wrap: wrap;
         justify-content: space-evenly;
     }
-    #sec3,
-    #sec5 {
-        flex-direction: column-reverse;
-    }
+    */
     .paragraph-image {
         max-width: 35vh;
     }
@@ -203,13 +207,13 @@ p {
     .section-content {
         margin: auto;
         padding: 10%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
     }
     .yt-embedded {
-        width: 16rem;
-        height: 9rem;
+        width: 18rem;
+        height: 10rem;
+    }
+    .carousel_container {
+        width: 100%;
+        max-width: 35vh;
     }
 }
