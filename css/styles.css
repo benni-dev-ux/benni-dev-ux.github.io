@@ -182,7 +182,9 @@ p {
         margin: auto;
         font-size: 80%;
     }
-    .section-title,
+    .section-title {
+        font-size: 155%;
+    }
     .paragraph-title {
         font-size: 130%;
     }
@@ -201,7 +203,7 @@ p {
     #sec4,
     #sec5,
     #sec6 {
-        background-color: var(--light-bg);
+        /*background-color: var(--light-bg);*/
         justify-content: space-evenly;
         align-items: center;
         align-content: center;
@@ -216,14 +218,16 @@ p {
     .paragraph-image {
         max-width: 35vh;
     }
-    .section-card,
     .section-content {
         margin: auto;
         padding: 10%;
     }
+    .section-image {
+        max-width: 35vh;
+    }
     .yt-embedded {
         width: 18rem;
-        height: 10rem;
+        height: 18rem;
     }
     .carousel_container {
         width: 100%;
