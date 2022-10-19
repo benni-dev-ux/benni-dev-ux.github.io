@@ -137,6 +137,7 @@
     --dark-font-gray: #2F4F4F;
     --ff-body: Inter, sans-serif;
     --ff-title: "PT Mono ", monospace;
+    --footer-bg: #091010;
     --light-bg: #fff;
     --light-bg-gray: #f8f8f8;
     --light-font: #fff
@@ -154,26 +155,9 @@ body {
     padding: 0
 }
 
-li {
-    background-color: var(--dark-font);
-    border-radius: 4px;
-    height: 8px;
-    list-style-type: none;
-    margin: 20px 15px;
-    transition: .3s ease;
-    width: 8px
-}
-
 p {
     font-family: var(--ff-body);
     font-weight: 500
-}
-
-ul {
-    height: auto;
-    position: fixed;
-    right: 10px;
-    top: calc(100% / 2 - 60px)
 }
 
 @media (max-width: 65em) {
@@ -221,9 +205,7 @@ ul {
         align-content: center;
         align-items: center;
         flex-direction: column;
-        justify-content: center
-    }
-    .section-content {
+        justify-content: center;
         margin: auto;
         padding: 0
     }
@@ -242,9 +224,7 @@ ul {
         padding-right: 10%
     }
     .section-title {
-        font-size: 155%
-    }
-    .section-title {
+        font-size: 155%;
         padding-top: 10%
     }
     .section-title,
@@ -257,4 +237,38 @@ ul {
         max-width: 30em;
         width: 100vw
     }
+}
+
+.color-filter {
+    filter: invert(100%) sepia(7%) saturate(450%) hue-rotate(312deg) brightness(117%) contrast(95%)
+}
+
+.footer {
+    align-items: center;
+    background: var(--footer-bg);
+    color: #f8f8f8;
+    display: flex;
+    flex-direction: row;
+    font-family: var(--ff-body);
+    font-weight: 400;
+    height: 10rem;
+    justify-content: space-evenly;
+    padding: 1%
+}
+
+.footer a {
+    color: var(--light-bg)
+}
+
+.footer-icon {
+    height: 2rem
+}
+
+.footer-icon:hover {
+    filter: invert(71%) sepia(44%) saturate(1752%) hue-rotate(157deg) brightness(99%) contrast(95%)
+}
+
+body {
+    margin: 0;
+    overflow-x: hidden
 }
