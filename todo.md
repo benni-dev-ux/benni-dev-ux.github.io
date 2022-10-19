@@ -2,7 +2,7 @@
 
 [ ] Favicon
 [ ] Texte
-[ ] More mobile testing
+[X] More mobile testing
 [X] fix blue link issue
-[ ] Fix Laoyut width embedded video
-[ ] Fix touchpad scrolling
+[X] Fix Laoyut width embedded video
+[X] Fix touchpad scrolling
