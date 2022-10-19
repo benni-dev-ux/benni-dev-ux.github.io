@@ -1,152 +1,3 @@
-:root {
-    --dark-bg: #050505;
-    --light-bg: #ffffff;
-    --light-bg-gray: #f8f8f8;
-    --accent: #31ccf6;
-    --dark-font: #050505;
-    --dark-font-gray: #2F4F4F;
-    --light-font: #ffffff;
-    --ff-title: "PT Mono ", monospace;
-    --ff-body: "Inter", sans-serif;
-}
-
-html,
-body {
-    padding: 0;
-    margin: 0;
-}
-
-.yt-embedded {
-    width: 35rem;
-    height: 23rem;
-}
-
-* {
-    -webkit-overflow-scrolling: touch;
-}
-
-ul {
-    top: calc(100% / 2 - 60px);
-    position: fixed;
-    height: auto;
-    right: 10px;
-}
-
-li {
-    list-style-type: none;
-    width: 8px;
-    height: 8px;
-    background-color: var(--dark-font);
-    border-radius: 4px;
-    margin: 20px 15px;
-    transition: 0.3s ease;
-}
-
-a,
-a:hover {
-    color: var(--dark-font);
-    text-decoration: none;
-}
-
-.active {
-    background-color: var(--accent);
-}
-
-.section {
-    width: 100%;
-    padding-top: 15%;
-    padding-bottom: 15%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-}
-
-.section-card,
-.section-content {
-    margin: auto;
-    padding-left: 5%;
-    padding-right: 5%;
-    flex-direction: column;
-}
-
-.section-title {
-    font-size: 3.1vmin;
-    max-width: 28vh;
-    font-family: var( --ff-title);
-    font-weight: 700;
-}
-
-.paragraph-title {
-    font-size: 155%;
-    font-family: var( --ff-title);
-    font-weight: 700;
-}
-
-.paragraph-sub-title {
-    font-size: 110%;
-    padding-bottom: 1%;
-    font-family: var( --ff-body);
-    font-weight: 500;
-    color: var(--dark-font-gray);
-}
-
-.paragraph-image {
-    max-width: 55vh;
-    margin: auto;
-}
-
-.section-image {
-    max-width: 25vh;
-    margin: auto;
-}
-
-.paragraph-text,
-.section-text {
-    margin: auto;
-    font-size: 100%;
-    max-width: 45rem;
-    max-height: 20rem;
-}
-
-.custom-section-btn {
-    display: inline-block;
-    text-decoration: none;
-    text-align: center;
-    font-family: var( --ff-title);
-    color: var(--dark-font);
-    font-weight: 700;
-    text-transform: capitalize;
-    background: var(--light-bg);
-    border: solid 2px var(--dark-font);
-    padding: 0.5em 2em;
-    margin-top: 5%;
-    margin-bottom: 10%;
-    transition: 0.3s;
-}
-
-.custom-section-btn:hover {
-    background: var(--accent);
-}
-
-.social_icon {
-    width: 4.9vh;
-}
-
-.social_icon:hover {
-    background: var(--accent);
-}
-
-p {
-    font-family: var(--ff-body);
-    font-weight: 500;
-}
-
 #sec1,
 #sec2,
 #sec3,
@@ -155,50 +6,179 @@ p {
 #sec6 {
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: center;
+    justify-content: center
 }
 
 #sec1,
 #sec3,
 #sec5 {
-    background-color: var(--light-bg);
+    background-color: var(--light-bg)
 }
 
 #sec2,
 #sec4,
 #sec6 {
-    background-color: var(--light-bg-gray);
+    background-color: var(--light-bg-gray)
+}
+
+* {
+    -webkit-overflow-scrolling: touch
+}
+
+.active {
+    background-color: var(--accent)
 }
 
 .carousel_container {
-    width: 80%;
-    max-width: 55vh;
     margin: auto;
+    max-width: 55vh;
+    width: 80%
+}
+
+.custom-section-btn {
+    background: var(--light-bg);
+    border: solid 2px var(--dark-font);
+    color: var(--dark-font);
+    display: inline-block;
+    font-family: var(--ff-title);
+    font-weight: 700;
+    margin-bottom: 10%;
+    margin-top: 5%;
+    padding: .5em 2em;
+    text-align: center;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .3s
+}
+
+.custom-section-btn:hover {
+    background: var(--accent)
+}
+
+.paragraph-image {
+    margin: auto;
+    max-width: 55vh
+}
+
+.paragraph-sub-title {
+    color: var(--dark-font-gray);
+    font-family: var(--ff-body);
+    font-size: 110%;
+    font-weight: 500;
+    padding-bottom: 1%
+}
+
+.paragraph-text,
+.section-text {
+    font-size: 100%;
+    margin: auto;
+    max-height: 20rem;
+    max-width: 45rem
+}
+
+.paragraph-title {
+    font-family: var(--ff-title);
+    font-size: 155%;
+    font-weight: 700
+}
+
+.section {
+    -ms-flex-align: center;
+    -ms-flex-pack: center;
+    -webkit-box-align: center;
+    -webkit-box-pack: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 15%;
+    padding-top: 15%;
+    width: 100%
+}
+
+.section-card,
+.section-content {
+    flex-direction: column;
+    margin: auto;
+    padding-left: 5%;
+    padding-right: 5%
+}
+
+.section-image {
+    margin: auto;
+    max-width: 25vh
+}
+
+.section-title {
+    font-family: var(--ff-title);
+    font-size: 3.1vmin;
+    font-weight: 700;
+    max-width: 28vh
+}
+
+.social_icon {
+    width: 4.9vh
+}
+
+.social_icon:hover {
+    background: var(--accent)
+}
+
+.yt-embedded {
+    height: 23rem;
+    width: 35rem
+}
+
+ :root {
+    --accent: #31ccf6;
+    --dark-bg: #050505;
+    --dark-font: #050505;
+    --dark-font-gray: #2F4F4F;
+    --ff-body: Inter, sans-serif;
+    --ff-title: "PT Mono ", monospace;
+    --light-bg: #fff;
+    --light-bg-gray: #f8f8f8;
+    --light-font: #fff
+}
+
+a,
+a:hover {
+    color: var(--dark-font);
+    text-decoration: none
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0
+}
+
+li {
+    background-color: var(--dark-font);
+    border-radius: 4px;
+    height: 8px;
+    list-style-type: none;
+    margin: 20px 15px;
+    transition: .3s ease;
+    width: 8px
+}
+
+p {
+    font-family: var(--ff-body);
+    font-weight: 500
+}
+
+ul {
+    height: auto;
+    position: fixed;
+    right: 10px;
+    top: calc(100% / 2 - 60px)
 }
 
 @media (max-width: 65em) {
-    .paragraph-text,
-    .section-text {
-        margin: auto;
-        font-size: 90%;
-    }
-    .section-text {
-        margin-top: 10%;
-    }
-    .section-title {
-        font-size: 155%;
-    }
-    .paragraph-title {
-        font-size: 130%;
-    }
-    .paragraph-sub-title {
-        font-size: 100%;
-    }
-    .section-content {
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        align-content: center;
+    #sec1 {
+        height: 100vh
     }
     #sec1,
     #sec2,
@@ -206,58 +186,78 @@ p {
     #sec4,
     #sec5,
     #sec6 {
+        align-content: center;
+        align-items: center;
         flex-direction: column;
         flex-wrap: nowrap;
-        justify-content: space-around;
-        align-items: center;
-        align-content: center;
+        justify-content: space-around
     }
-    #sec1 {
-        height: 100vh;
-    }
-    li {
-        visibility: hidden;
+    .carousel_container {
+        padding: 0;
+        width: 100%
     }
     .custom-section-btn {
-        width: 80%;
         align-content: center;
-        margin-top: 10%;
         margin-left: 10%;
         margin-right: 10%;
+        margin-top: 10%;
+        width: 80%
     }
     .paragraph-image {
-        width: 100%;
+        width: 100%
+    }
+    .paragraph-sub-title {
+        font-size: 100%
+    }
+    .paragraph-text,
+    .section-text {
+        font-size: 90%;
+        margin: auto
+    }
+    .paragraph-title {
+        font-size: 130%
+    }
+    .section-content {
+        align-content: center;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center
     }
     .section-content {
         margin: auto;
-        padding: 0;
+        padding: 0
+    }
+    .section-image {
+        max-width: 50vh;
+        width: 100vw
+    }
+    .section-text {
+        margin-top: 10%
     }
     .section-text,
     .paragraph-text,
     .paragraph-title,
     .paragraph-sub-title {
         padding-left: 10%;
-        padding-right: 10%;
-    }
-    .section-image {
-        width: 100vw;
-        max-width: 50vh;
+        padding-right: 10%
     }
     .section-title {
-        padding-top: 10%;
+        font-size: 155%
+    }
+    .section-title {
+        padding-top: 10%
     }
     .section-title,
     .social-icons {
         padding-left: 10%;
-        padding-right: 10%;
+        padding-right: 10%
     }
     .yt-embedded {
-        width: 100vw;
-        max-width: 30em;
         height: 18rem;
+        max-width: 30em;
+        width: 100vw
     }
-    .carousel_container {
-        width: 100%;
-        padding: 0;
+    li {
+        visibility: hidden
     }
 }
