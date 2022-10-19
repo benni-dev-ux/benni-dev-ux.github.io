@@ -208,9 +208,12 @@ p {
     #sec6 {
         flex-direction: column;
         flex-wrap: nowrap;
-        justify-content: space-evenly;
+        justify-content: space-around;
         align-items: center;
         align-content: center;
+    }
+    #sec1 {
+        height: 100vh;
     }
     li {
         visibility: hidden;
@@ -218,6 +221,7 @@ p {
     .custom-section-btn {
         width: 80%;
         align-content: center;
+        margin-top: 10%;
         margin-left: 10%;
         margin-right: 10%;
     }
@@ -236,7 +240,16 @@ p {
         padding-right: 10%;
     }
     .section-image {
-        max-width: 35vh;
+        width: 100vw;
+        max-width: 50vh;
+    }
+    .section-title {
+        padding-top: 10%;
+    }
+    .section-title,
+    .social-icons {
+        padding-left: 10%;
+        padding-right: 10%;
     }
     .yt-embedded {
         width: 100vw;
