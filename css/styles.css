@@ -147,7 +147,7 @@
 a,
 a:hover {
     color: var(--dark-font);
-    text-decoration: none
+    text-decoration: underline
 }
 
 html,
