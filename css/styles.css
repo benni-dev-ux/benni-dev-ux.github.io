@@ -137,7 +137,7 @@
     --dark-font-gray: #2F4F4F;
     --ff-body: Inter, sans-serif;
     --ff-title: "PT Mono ", monospace;
-    --footer-bg: #091010;
+    --footer-bg: #555555;
     --light-bg: #fff;
     --light-bg-gray: #f8f8f8;
     --light-font: #fff
@@ -237,6 +237,13 @@ p {
         max-width: 30em;
         width: 100vw
     }
+    .footer {
+        flex-direction: column;
+        margin: auto;
+    }
+    .footer-icon {
+        height: 1.1rem
+    }
 }
 
 .color-filter {
@@ -248,12 +255,13 @@ p {
     background: var(--footer-bg);
     color: #f8f8f8;
     display: flex;
-    flex-direction: row;
-    font-family: var(--ff-body);
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-family: var(--ff-title);
     font-weight: 400;
     height: 10rem;
     justify-content: space-evenly;
-    padding: 1%
+    margin: auto;
 }
 
 .footer a {
@@ -261,7 +269,7 @@ p {
 }
 
 .footer-icon {
-    height: 2rem
+    height: 2rem;
 }
 
 .footer-icon:hover {
