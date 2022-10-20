@@ -53,25 +53,21 @@ html {
 }
 
 #top_button {
+    background: transparent;
     display: none;
-    /* Hidden by default */
     position: fixed;
-    height: 5rem;
-    width: 5rem;
-    /* Fixed/sticky position */
+    height: 3rem;
+    width: 3rem;
     bottom: 3rem;
-    /* Place the button at the bottom of the page */
     right: 3rem;
-    /* Place the button 30px from the right */
     z-index: 99;
-    /* Make sure it does not overlap */
     border: none;
-    /* Remove borders */
     outline: none;
+    filter: invert(0%) sepia(1%) saturate(5932%) hue-rotate(337deg) brightness(125%) contrast(81%);
 }
 
 #top_button:hover {
-    background-color: #555;
+    filter: invert(2%) sepia(16%) saturate(94%) hue-rotate(314deg) brightness(93%) contrast(75%);
     /* Add a dark-grey background on hover */
 }
 
