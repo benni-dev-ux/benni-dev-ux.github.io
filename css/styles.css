@@ -2,13 +2,13 @@
     --accent: #31ccf6;
     --dark-bg: #050505;
     --dark-font: #050505;
-    --dark-font-gray: #2F4F4F;
+    --dark-font-gray: #2f4f4f;
     --ff-body: Inter, sans-serif;
     --ff-title: "PT Mono ", monospace;
     --footer-bg: #181818;
     --light-bg: #fff;
     --light-bg-gray: #f8f8f8;
-    --light-font: #fff
+    --light-font: #fff;
 }
 
 html {
@@ -23,33 +23,33 @@ html {
 #sec6 {
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: space-evenly
+    justify-content: space-evenly;
 }
 
 #sec1,
 #sec3,
 #sec5 {
-    background-color: var(--light-bg)
+    background-color: var(--light-bg);
 }
 
 #sec2,
 #sec4,
 #sec6 {
-    background-color: var(--light-bg-gray)
+    background-color: var(--light-bg-gray);
 }
 
 * {
-    -webkit-overflow-scrolling: touch
+    -webkit-overflow-scrolling: touch;
 }
 
 .active {
-    background-color: var(--accent)
+    background-color: var(--accent);
 }
 
 .carousel_container {
     margin: auto;
     max-width: 55vh;
-    width: 80%
+    width: 80%;
 }
 
 #top_button {
@@ -80,11 +80,11 @@ html {
     font-weight: 700;
     margin-bottom: 10%;
     margin-top: 10%;
-    padding: .5em 2em;
+    padding: 0.5em 2em;
     text-align: center;
     text-decoration: none;
     text-transform: capitalize;
-    transition: .3s
+    transition: 0.3s;
 }
 
 .custom-section-btn:hover {
@@ -95,7 +95,7 @@ html {
 .paragraph-image {
     margin: auto;
     max-width: 55vh;
-    width: 80%
+    width: 80%;
 }
 
 .paragraph-sub-title {
@@ -103,7 +103,7 @@ html {
     font-family: var(--ff-body);
     font-size: 110%;
     font-weight: 500;
-    padding-bottom: 1%
+    padding-bottom: 1%;
 }
 
 .paragraph-text,
@@ -118,7 +118,7 @@ html {
 .paragraph-title {
     font-family: var(--ff-title);
     font-size: 155%;
-    font-weight: 700
+    font-weight: 700;
 }
 
 .section {
@@ -133,7 +133,7 @@ html {
     justify-content: center;
     padding-bottom: 15%;
     padding-top: 15%;
-    width: 100%
+    width: 100%;
 }
 
 .section-card,
@@ -141,49 +141,49 @@ html {
     flex-direction: column;
     margin: auto;
     padding-left: 5%;
-    padding-right: 5%
+    padding-right: 5%;
 }
 
 .section-image {
     margin: auto;
-    max-width: 25vh
+    max-width: 25vh;
 }
 
 .section-title {
     font-family: var(--ff-title);
     font-size: 3.1vmin;
     font-weight: 700;
-    max-width: 28vh
+    max-width: 28vh;
 }
 
 .social_icon {
-    width: 4.9vh
+    width: 4.9vh;
 }
 
 .social_icon:hover {
-    background: var(--accent)
+    background: var(--accent);
 }
 
 .yt-embedded {
     height: 23rem;
-    width: 35rem
+    width: 35rem;
 }
 
 a,
 a:hover {
     color: var(--dark-font);
-    text-decoration: underline
+    text-decoration: underline;
 }
 
 html,
 body {
     margin: 0;
-    padding: 0
+    padding: 0;
 }
 
 p {
     font-family: var(--ff-body);
-    font-weight: 500
+    font-weight: 500;
 }
 
 .section {
@@ -227,7 +227,7 @@ p {
     }
     .carousel_container {
         padding: 0;
-        width: 100%
+        width: 100%;
     }
     .custom-section-btn {
         align-content: center;
@@ -237,19 +237,19 @@ p {
         width: 80%;
     }
     .paragraph-image {
-        width: 100%
+        width: 100%;
     }
     .paragraph-sub-title {
-        font-size: 100%
+        font-size: 100%;
     }
     .paragraph-text,
     .section-text {
         font-size: 90%;
-        margin: auto
+        margin: auto;
     }
     .paragraph-title {
         padding-top: 12%;
-        font-size: 130%
+        font-size: 130%;
     }
     .section-content {
         align-content: center;
@@ -262,42 +262,42 @@ p {
     }
     .section-image {
         max-width: 50vh;
-        width: 100vw
+        width: 100vw;
     }
     .section-text {
-        margin-top: 10%
+        margin-top: 10%;
     }
     .section-text,
     .paragraph-text,
     .paragraph-title,
     .paragraph-sub-title {
         padding-left: 10%;
-        padding-right: 10%
+        padding-right: 10%;
     }
     .section-title {
         font-size: 155%;
-        padding-top: 10%
+        padding-top: 10%;
     }
     .section-title,
     .social-icons {
         padding-left: 10%;
-        padding-right: 10%
+        padding-right: 10%;
     }
     .yt-embedded {
         height: 18rem;
         max-width: 30em;
-        width: 100vw
+        width: 100vw;
     }
     .footer {
-        font-size: .8rem;
+        font-size: 0.8rem;
     }
     .footer-icon {
-        height: 1.1rem
+        height: 1.1rem;
     }
 }
 
 .color-filter {
-    filter: invert(100%) sepia(7%) saturate(450%) hue-rotate(312deg) brightness(117%) contrast(95%)
+    filter: invert(100%) sepia(7%) saturate(450%) hue-rotate(312deg) brightness(117%) contrast(95%);
 }
 
 .footer {
@@ -315,7 +315,7 @@ p {
 }
 
 .footer a {
-    color: var(--light-bg)
+    color: var(--light-bg);
 }
 
 .footer-icon {
@@ -323,10 +323,10 @@ p {
 }
 
 .footer-icon:hover {
-    filter: invert(71%) sepia(44%) saturate(1752%) hue-rotate(157deg) brightness(99%) contrast(95%)
+    filter: invert(71%) sepia(44%) saturate(1752%) hue-rotate(157deg) brightness(99%) contrast(95%);
 }
 
 body {
     margin: 0;
-    overflow-x: hidden
+    overflow-x: hidden;
 }
