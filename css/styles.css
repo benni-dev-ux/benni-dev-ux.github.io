@@ -59,9 +59,9 @@ html {
     height: 5rem;
     width: 5rem;
     /* Fixed/sticky position */
-    bottom: 5rem;
+    bottom: 3rem;
     /* Place the button at the bottom of the page */
-    right: 5rem;
+    right: 3rem;
     /* Place the button 30px from the right */
     z-index: 99;
     /* Make sure it does not overlap */
@@ -200,9 +200,15 @@ p {
         padding-left: 18%;
         padding-right: 18%;
     }
+    #top_button {
+        right: 10em;
+    }
 }
 
 @media (max-width: 65em) {
+    #top_button {
+        visibility: hidden;
+    }
     #sec1 {
         height: 100vh;
     }
