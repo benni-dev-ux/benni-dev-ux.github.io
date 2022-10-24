@@ -173,9 +173,9 @@ html {
 
 .section-title {
     font-family: var(--ff-title);
-    font-size: 3.1vmin;
+    font-size: clamp(20em, 12em);
     font-weight: 700;
-    max-width: 28vh;
+    max-width: 25vh;
 }
 
 .social_icon {
@@ -228,7 +228,7 @@ p {
         visibility: hidden;
     }
     #sec1 {
-        height: 100vh;
+        min-height: 100vh;
     }
     #sec1,
     #sec2,
