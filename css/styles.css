@@ -287,7 +287,10 @@ p {
         width: 100vw;
     }
     .section-text {
-        margin-top: 10%;
+        margin-top: 0%;
+        margin-bottom: 0%;
+        padding-top: 5%;
+        padding-bottom: 5%;
     }
     .section-text,
     .paragraph-text,
