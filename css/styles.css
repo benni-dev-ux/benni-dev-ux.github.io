@@ -201,7 +201,7 @@ p {
     width: 80%;
 }
 
-@media (min-width: 120em) {
+@media (min-width: 125em) {
     .section {
         padding-left: 18%;
         padding-right: 18%;
